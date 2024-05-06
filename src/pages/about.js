@@ -18,7 +18,7 @@ const AboutPage = () => {
       </p>
       <p>
         During my high school years I dabbled in math and physics olympiads, eventually winning a Silver medal for India at <a href="https://ipho2014.kz/">IPhO 2014</a>.
-        That perhaps explains my lifelong obsession with numbers and puzzles.
+        That aligns with my lifelong obsession with numbers and puzzles.
       </p>
       
       <p>

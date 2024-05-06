@@ -20,5 +20,19 @@ module.exports = {
       },
     },
     `gatsby-plugin-fontawesome`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+        // Ignore files starting with a dot
+        ignore: [`**/\.*`],
+        // Use "mtime" and "inode" to fingerprint files (to check if file has changed)
+        fastHash: true,
+      },
+    },
   ],
 }
